@@ -463,13 +463,13 @@ p{
 }
 
 .lock{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     /* border: 1px solid rgb(91, 15, 121); */
     margin-top: 60px;
     margin-left: 90px;
 }
-
+ 
 .key{
     height: 100px;
     width: 20%;
@@ -478,18 +478,21 @@ p{
     margin-top: 45px;
 }
 #iso{
-    height: 150px;
-    width: 30%;
+    height: 130px;
+    width: 22%;
     /* border: 1px solid rgb(91, 15, 121); */
     margin: auto;
-    gap: 10px;
+     
     display: flex;
+    justify-content: space-around;
+
 }
-#iso>div{
-    height: 80%;
-    width: 35%;
+#iso>img{
+    height: 60%;
+    width: 30%;
     /* border: 1px solid rgb(91, 15, 121); */
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    
 }
 
 #certified{
