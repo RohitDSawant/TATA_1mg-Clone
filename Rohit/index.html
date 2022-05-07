@@ -565,16 +565,16 @@ var topsellerArr = [
 
 ];
 
-topsellerArr.forEach(function (element){
+topsellerArr.forEach(function (element,index){
 
     var box= document.createElement("div")
-        box.addEventListener("click", redirect)
+        box.addEventListener("click", function(){
 
-        function redirect(){
+       localStorage.setItem("productData",JSON.stringify(topsellerArr[index]))  
 
-            window.location.href= ""
-        }
-   
+        })
+
+        
 
     var logo= document.createElement("img")
         logo.setAttribute("src",element.img)
@@ -662,7 +662,7 @@ topsellerArr.forEach(function (element){
 
     document.querySelector("#tab3").append(box)
     
-    localStorage.setItem("featuredBrands",JSON.stringify(featuredArr))
+    localStorage.setItem("topseller",JSON.stringify(topsellerArr))
 
 });
 
