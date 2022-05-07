@@ -1,0 +1,200 @@
+#cont{
+    height: 600px;
+    width: 100%;
+    border: 1px solid rebeccapurple;
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+#colm{
+    height: 600px;
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+    background-color: rgb(248, 248, 248);
+     
+}
+#consult{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    font-size: 15px;
+    background-color: white;
+     
+}
+
+#row{
+    height: 70px;
+    width: 70px;
+    /* border: 1px solid rebeccapurple; */
+    margin: auto;
+    margin-top: 50px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#line{
+    height: 50px;
+    width: 230px;
+    /* border: 1px solid rebeccapurple; */
+    margin-left: -70px;
+}
+#single{
+    height: 60px;
+    width:85%;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 220px;
+    margin-left: 20px;
+}
+p{
+    color: gray;
+    font-size: 18px;
+}
+
+#bt{
+    margin-left: 90px;
+    color: #ff6f61;
+    font-size: 15px;
+    background-color: white;
+    border: 0px;
+    font-weight: 700;
+     
+}
+
+#container{
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+ 
+.step{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+
+#steps{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    font-size: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#block{
+    display: block;
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid rebeccapurple; */
+    margin: auto;
+    margin-top: 30px;
+}
+#name{
+    height: 50px;
+    width: 80%;
+    /* border: 1px solid rebeccapurple; */
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#contain{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid rebeccapurple; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+#last{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    font-size: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+}
+#sk{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid rebeccapurple; */
+    margin-left: 20px;
+    display: flex;
+}
+.circle{
+    height: 100%;
+    width: 100%;
+    clip-path: circle();
+     
+}
+#health{
+    height: 20px ;
+    width: 30%;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 8px;  
+}
+
+.container{
+    height: 90%;
+    width: 99%;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+    background-color: teal;
+}
+
+ .header h1{
+     color: white;
+     padding: 15px;
+ }
+ .body{
+     flex: 1;
+     color: white;
+     background-color: rgba(0,0,0,0.7);
+     padding: 20px 30px;
+ }
+ .message{
+     background-color: dodgerblue;
+     padding: 10px;
+     color: white;
+     width: fit-content;
+     border-radius: 10px;
+     margin-bottom: 15px;
+ }
+
+ .usermessage{
+     
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 530px;
+}
+
+.footer form{
+    display: flex;
+}
+form input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+}
+form button{
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+ 
