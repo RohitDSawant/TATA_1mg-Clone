@@ -17,12 +17,12 @@ var prod_price = document.querySelectorAll(".prod-price");
 prod_price[0].innerText = obj.price;
 prod_price[1].innerText = obj.price;
 var prod_detail = document.querySelector("#prod-detail");
-prod_detail.innerText = obj.detail;
+prod_detail.innerText = obj.qty;
 var prod_mrp = document.querySelectorAll(".prod-mrp");
-prod_mrp[0].innerText = obj.mrp;
-prod_mrp[1].innerText = obj.mrp;
+prod_mrp[0].innerText = obj.MRP;
+prod_mrp[1].innerText = obj.MRP;
 var prod_discount = document.querySelector("#prod-discount");
-var prodDiscountValue = obj.mrp - obj.price;
+var prodDiscountValue = obj.MRP - obj.price;
 prod_discount.innerText = prodDiscountValue;
 var savings = document.querySelector("#savings");
 savings.innerText = prodDiscountValue;
@@ -32,19 +32,19 @@ document.querySelector("#counter-value").innerText = counter_value;
 
 document.querySelector("#decrease").addEventListener("click", function () {
   counter_value--;
-  obj.mrp -= actualMrp;
+  obj.MRP -= actualMrp;
   obj.price -= actualPrice;
   localStorage.setItem("productData", JSON.stringify(obj));
   document.querySelector("#counter-value").innerText = counter_value;
   // change the price
   // mrp , discount , to be paid changed
-  prod_mrp[0].innerText = obj.mrp;
-  prod_mrp[1].innerText = obj.mrp;
+  prod_mrp[0].innerText = obj.MRP;
+  prod_mrp[1].innerText = obj.MRP;
 
   prod_price[0].innerText = obj.price;
   prod_price[1].innerText = obj.price;
   // prodDiscountValue = prod_mrp[0].innerText - prod_price[0].innerText;
-  prodDiscountValue = obj.mrp - obj.price;
+  prodDiscountValue = obj.MRP - obj.price;
   prod_discount.innerText = prodDiscountValue;
   savings.innerText = prod_discount.innerText;
   // set to local storage
@@ -54,19 +54,19 @@ document.querySelector("#decrease").addEventListener("click", function () {
 var counter_value = JSON.parse(localStorage.getItem("prod-count")) || 1;
 document.querySelector("#increase").addEventListener("click", function () {
   counter_value++;
-  obj.mrp += actualMrp;
+  obj.MRP += actualMrp;
   obj.price += actualPrice;
   localStorage.setItem("productData", JSON.stringify(obj));
   // changing INNER TEXT
   document.querySelector("#counter-value").innerText = counter_value;
   // change the mrp
-  prod_mrp[0].innerText = obj.mrp;
-  prod_mrp[1].innerText = obj.mrp;
+  prod_mrp[0].innerText = obj.MRP;
+  prod_mrp[1].innerText = obj.MRP;
   // change the price
   prod_price[0].innerText = obj.price;
   prod_price[1].innerText = obj.price;
 
-  prodDiscountValue = obj.mrp - obj.price;
+  prodDiscountValue = obj.MRP - obj.price;
   prod_discount.innerText = prodDiscountValue;
   // prod_discount.innerText = prod_mrp[0].innerText - prod_price[0].innerText;
   savings.innerText = prod_discount.innerText;
