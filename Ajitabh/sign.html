@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATA1mg</title>
+    <link rel="stylesheet" href="Aj.css">
+    <link rel="javascript" href="Aj.js">
+</head>
+<body>
+    <div id = "data">
+        <div id = "Obj">
+            <img id ="first" src = "images/CPT2205051926-500x587.gif" alt="" >
+            <!-- <h3>Make Health Care Simpler</h3> -->
+            <!-- <p id="p1">Get medicine information,order medicines book lab <br> tests & consult doctors online from the comfort <br>of your home.</p> -->
+        
+        </div>
+        <div id = "Obj"><h1>Sign Up</h1>
+            <p id = "Aj1">Please enter your Mobile number to receive One Time <br>Password (OTP)</p>
+            <!-- <input id = "Barsu" placeholder="Enter Email Id or Phone Number"> -->
+            <div class ="input-cont">
+                <!-- <input type="text"> -->
+                <input id = "fact1" type ="text" placeholder="Enter Mobile Number">
+                <div id="line3"></div>
+           
+                <input id = "fact2" type ="text" placeholder="Create Password">
+                <p></p>
+                
+                
+              </div>
+            <div id="line1"></div>
+        <!-- </br> -->
+
+            
+            <button id="Dj">Sign Up</button>
+            <p id = "Rj">Have an account <b><a href="index.html"><span id="orange">Login</span></a></b></p>
+            <p id = "Dk">For corporate Sign up, <b>Click Here</b></p>
+            <p id = "AB">By logging in, you agree to our
+                <br> <a href="">Terms and Conditions & Privacy Policy</a></p>
+               <!-- <p id = "faf"><b>Need Help? Get In Touch</b></p>  -->
+
+        </div>
+        
+       
+    </div>
+</body>
+</html>
+<script>
+    var btn = document.querySelector("button")
+    btn.addEventListener("click",loginFunction)
+    function loginFunction(){
+        var fact1 = document.querySelector("#fact1").value
+        var fact2 = document.querySelector("#fact2").value
+        var obj = {
+            email : fact1,
+            password : fact2,
+            name : "Ajitabh",
+        }
+
+        localStorage.setItem("signupDetails",JSON.stringify(obj))
+        
+    }
+</script>
+
+
+
