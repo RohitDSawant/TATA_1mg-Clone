@@ -1,0 +1,157 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+#data{
+    display:flex;
+    height: 500px;
+    width:65%;
+    margin:auto;
+    margin-top: 50px;
+   
+}
+#Obj{
+    height: 500px;
+    width:50%;
+    margin:auto;
+    border-radius: 3%;  
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+} 
+#Obj h1{
+    padding-top: 40px;
+    padding-left: 10%;
+    font-style:arial;
+} 
+#Obj p{
+    
+    font-size: small;
+    margin-top: 10px;
+}  
+#faf{
+
+    color:rgb(255, 111, 97);
+}
+button{
+    padding:10px 130px 10px 140px;
+    margin-top: 5%;
+    margin-left: 50px;
+    font-size: large;
+    color: white;
+    background-color: rgb(255, 111, 97);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 111, 97);
+}
+.input-cont{
+   
+    margin-top: 40px;
+    padding-left: 20%;
+    padding-right: 30px;
+    color: grey;
+    font-size: 15px;
+    padding-left:40px;
+}
+#line{
+    width: 80%;
+    border: 1px solid rgb(255, 111, 97);
+    margin:auto;
+    margin-bottom: 30px;
+}
+#Rj,#Dk,#AB,#faf,#AJ,#Rj1{
+    text-align: center;
+    color: grey;
+}
+#jaan{
+    margin-left: 60px;
+    color: grey;
+}
+br{
+    color:rgb(255, 111, 97);
+}
+#AJ b{
+    color:rgb(255, 111, 97);
+}
+#Dk b{
+    color:rgb(255, 111, 97);
+}
+#faf b{
+    color:rgb(255, 111, 97);
+}
+#first{
+    padding-left: 0%;
+    padding-top: 0%;
+    height:501px;
+    width: 100%;
+    border-radius: 5%;
+    
+}
+h3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+#p1{
+    text-align: center;
+    font-size: 20px;
+    line-height: 16px;
+    padding-top: 10px;
+    color: grey;
+}
+a{
+    color: gray;    
+}
+#Aj1{
+
+    padding-left: 45px;
+    color: grey;
+
+}
+#Rj{
+    padding-top: 10px;
+}
+#fact{
+    padding: 10px 158px 10px 0px;
+    outline:0px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+#fact1{
+    padding: 10px 45px 10px 0px;
+    outline:0px;
+    font-size: 15px;
+    width: 300px;
+}
+#fact2{
+    padding: 10px 158px 10px 0px;
+    outline:0px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+#AJ{
+    padding-right: 40px;
+    
+}
+#Rj1{
+    padding-top: 10px;
+}
+#line1{
+    width: 80%;
+    border: 1px solid rgb(255, 111, 97);
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: -10px ;
+}
+#Dj{
+    padding-top: 20px;
+}
+#line3{
+    width: 96%;
+    border: 1px solid rgb(255, 111, 97);
+    margin-left: 0px;
+    margin-bottom: 4px;
+    margin-top: 0px ;
+}
+
+#orange {
+    color :rgb(255, 111, 97)
+}
