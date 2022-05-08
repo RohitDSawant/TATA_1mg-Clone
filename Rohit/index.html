@@ -31,9 +31,9 @@
             </div>
         </div>
         <div id="pointers">
-            <a href="">Login</a>
+            <a class="change" href="./..//Ajitabh/index.html">Login</a>
             <p style="color: black ;">|</p>
-            <a href="">Sign Up</a>
+            <a class="change" href="./..//Ajitabh/sign.html">Sign Up</a>
             <a href="">Offers</a>
             <a href="./../Farooque/index.html">
                 <span class="material-symbols-outlined" 
@@ -388,6 +388,24 @@
 
 <!-- /JS -->
 <script>
+
+    // Login / Signup Change
+
+ var obj= JSON.parse(localStorage.getItem("signupDetails") )|| null
+    if(obj!= null){
+    var arr= document.querySelectorAll(".change")
+    arr[0].innerText= obj.name
+    arr[1].innerText= ""
+
+    }
+    
+
+//  console.log(obj)
+    
+
+
+
+
    
    //-->Featured Brands<--//
 

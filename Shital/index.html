@@ -27,9 +27,9 @@
             </div>
         </div>
         <div id="pointers">
-            <a href="">Login</a>
+            <a class="change" href="">Login</a>
             <p style="color: black ;">|</p>
-            <a href="">Sign Up</a>
+            <a class="change" href="">Sign Up</a>
             <a href="">Offers</a>
             <a href="./../Farooque/index.html">
                 <span class="material-symbols-outlined" 
@@ -462,3 +462,14 @@
         </div>
  </body>
  </html>
+
+ <script>
+
+var obj= JSON.parse(localStorage.getItem("signupDetails") )|| null
+    if(obj!= null){
+    var arr= document.querySelectorAll(".change")
+    arr[0].innerText= obj.name
+    arr[1].innerText= ""
+
+    }
+ </script>

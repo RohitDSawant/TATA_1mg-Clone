@@ -22,22 +22,25 @@
             <div class="input-cont">
                 <!-- <input type="text"> -->
                 <input id = "fact1" type="text" placeholder="Enter Your Email ID or Mobile Number">
-                <div id ="line3"></div>
+                <!-- <div id ="line3"></div> -->
 
                 <input id = "fact2" type="text" placeholder="Enter Your Password">
                 
               </div>
-            <div id="line"></div>
+            <!-- <div id="line"></div> -->
          <!-- </br> -->
 
             
             <button>Login</button>
-            <p id = "Rj1">New on 1mg? <b><a href="sign.html"><span id="orange">Sign Up</span></a></b></p>
-            <p id = "Dk">Have a corporate account? <b>Click Here</b></p>
-            <p id = "AB">By logging in, you agree to our
-                <br> <a href="">Terms and Conditions & Privacy Policy</a></p>
-               <p id = "faf"><b>Need Help? Get In Touch</b></p> 
-
+            <div id="last">
+                <p id = "Rj1">New on 1mg? <b><a href="sign.html"><span id="orange">Sign Up</span></a></b></p>
+                <p id = "Dk">Have a corporate account? <b>Click Here</b></p>
+                <p id = "AB">By logging in, you agree to our
+                    <br> <a href="">Terms and Conditions & Privacy Policy</a></p>
+                   <p id = "faf"><b>Need Help? Get In Touch</b></p> 
+    
+            </div>
+            
         </div>
         
        
@@ -54,7 +57,7 @@
         var fact2 = document.querySelector("#fact2").value
         if(fact1 == signupDetails.email && fact2 == signupDetails.password){
             console.log("correct")
-            window.location.href = ""
+            window.location.href = "./..//Rohit/index.html"
         }
         else {
             window.alert("Email or Password Incorrect")

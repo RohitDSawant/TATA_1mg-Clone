@@ -21,23 +21,28 @@
             <!-- <input id = "Barsu" placeholder="Enter Email Id or Phone Number"> -->
             <div class ="input-cont">
                 <!-- <input type="text"> -->
+                <input  id="fact4" type="text" placeholder="Enter Username">
                 <input id = "fact1" type ="text" placeholder="Enter Mobile Number">
-                <div id="line3"></div>
+                <!-- <div id="line3"></div> -->
            
                 <input id = "fact2" type ="text" placeholder="Create Password">
                 <p></p>
                 
                 
               </div>
-            <div id="line1"></div>
+            <!-- <div id="line1"></div> -->
         <!-- </br> -->
 
             
             <button id="Dj">Sign Up</button>
-            <p id = "Rj">Have an account <b><a href="index.html"><span id="orange">Login</span></a></b></p>
-            <p id = "Dk">For corporate Sign up, <b>Click Here</b></p>
-            <p id = "AB">By logging in, you agree to our
-                <br> <a href="">Terms and Conditions & Privacy Policy</a></p>
+
+            <div id="last">
+                <p id = "Rj">Have an account <b><a href="index.html"><span id="orange">Login</span></a></b></p>
+                <p id = "Dk">For corporate Sign up, <b>Click Here</b></p>
+                <p id = "AB">By logging in, you agree to our
+                    <br> <a href="">Terms and Conditions & Privacy Policy</a></p>
+                
+            </div>
                <!-- <p id = "faf"><b>Need Help? Get In Touch</b></p>  -->
 
         </div>
@@ -52,14 +57,16 @@
     function loginFunction(){
         var fact1 = document.querySelector("#fact1").value
         var fact2 = document.querySelector("#fact2").value
+        var fact4 = document.querySelector("#fact4").value
+
         var obj = {
             email : fact1,
             password : fact2,
-            name : "Ajitabh",
+            name : fact4,
         }
-
-        localStorage.setItem("signupDetails",JSON.stringify(obj))
         
+        localStorage.setItem("signupDetails",JSON.stringify(obj))
+        window.location.href="index.html"
     }
 </script>
 
