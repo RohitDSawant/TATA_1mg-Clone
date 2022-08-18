@@ -4,7 +4,7 @@
 
 - Tata 1mg is an E-Commerce website which is used to buy medicines or daily life products.
 - This is a group project made during the construct week in Masai School.
-- The functions our website has are signin / login
+- The features our website has are signin / login function, landing page, product description page, add to cart functionality, payment page.
 
 ## Tech Used
 
