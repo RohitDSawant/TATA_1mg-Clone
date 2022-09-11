@@ -16,7 +16,7 @@
 ## Links and Instalations
 
 - Clone this repository [ link ](https://github.com/RohitSawant0351/TATA-1mg-Project) and host it in your local sever using index.html file inside Rohit folder.
-- Netlify [ link ](https://sensational-mooncake-82a3b2.netlify.app/)
+- Netlify [ link ](https://tata1mg-clone.netlify.app/)
 
 ## Snapshots
 
